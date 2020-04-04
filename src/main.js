@@ -43,6 +43,15 @@ router.beforeEach((to, from, next) => {
     }
 });
 
+const store = new Vuex.Store({
+    state: {
+    
+    },
+    mutations: {
+
+    }
+  })
+
 new Vue({
     el: '#app',
     store,

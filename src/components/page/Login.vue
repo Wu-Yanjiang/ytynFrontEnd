@@ -1,38 +1,42 @@
 <template>
     <div class="login-wrap">
         <div class="ms-login">
-            <div class="ms-title">研途有你后台管理系统</div>
+            <div class="ms-title">研途有你管理系统</div>
             <el-form :model="param" :rules="rules" ref="login" label-width="0px" class="ms-content">
                 <el-form-item prop="username">
-                    <el-input v-model="param.username" placeholder="username">
+                    <el-input v-model="param.username" placeholder="用户名">
                         <el-button slot="prepend" icon="el-icon-lx-people"></el-button>
                     </el-input>
                 </el-form-item>
                 <el-form-item prop="password">
                     <el-input
                         type="password"
-                        placeholder="password"
+                        placeholder="密码"
                         v-model="param.password"
                         @keyup.enter.native="submitForm()"
                     >
                         <el-button slot="prepend" icon="el-icon-lx-lock"></el-button>
                     </el-input>
                 </el-form-item>
-                <el-form-item prop="captcha">
+                <el-form-item prop="captcha" >
                     <el-input
                         type="captcha"
-                        placeholder="captcha"
+                        placeholder="验证码"
                         v-model="param.captcha"
-                        @click="registForm()"
                     >
-                        <el-button slot="prepend" icon="el-icon-lx-lock"></el-button>
+                        <el-button slot="prepend" icon="el-icon-picture-outline"></el-button>
                     </el-input>
+                    <el-image>
+                        <div slot="error" class="image-slot">
+                            <i class="el-icon-picture-outline"></i>
+                        </div>
+                    </el-image>
                 </el-form-item>
                 <div class="login-btn">
                     <el-button type="primary" @click="submitForm()">登录</el-button>
-                    <el-button type="info" @click="submitForm()">注册</el-button>
+                    <el-button type="info" @click="registForm()">注册</el-button>
                 </div>
-                <p class="login-tips"></p>
+                <p class="login-tips">此为管理员的后台界面，不要乱登哦</p>
             </el-form>
         </div>
     </div>
