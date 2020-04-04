@@ -15,12 +15,7 @@
   <a href="https://lin-xin.gitee.io/example/work/#/donate">
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
-
-基于 Vue + Element UI 的后台管理系统解决方案。[线上地址](https://lin-xin.gitee.io/example/work/)
-
-> React + Ant Design 的版本正在开发中，仓库地址：[react-manage-system](https://github.com/lin-xin/react-manage-system)
-
-[English document](https://github.com/lin-xin/manage-system/blob/master/README_EN.md)
+</a>
 
 ## 项目截图
 
@@ -36,15 +31,6 @@
 
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
 
-## 赞赏
-
-请作者喝杯咖啡吧！(微信号：linxin_20)
-
-![微信扫一扫](https://lin-xin.gitee.io/images/weixin.jpg)
-
-## 特别鸣谢
-
-- [实验楼](https://www.shiyanlou.com?source=vue-manage-system)
 
 ## 前言
 
@@ -73,17 +59,6 @@
 
 ## 安装步骤
 
-```
-git clone https://github.com/lin-xin/vue-manage-system.git      // 把模板下载到本地
-cd vue-manage-system    // 进入模板目录
-npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
-
-// 开启服务器，浏览器访问 http://localhost:8080
-npm run serve
-
-// 执行构建命令，生成的dist文件夹放在服务器下即可访问
-npm run build
-```
 
 ## 组件使用说明与演示
 
@@ -194,4 +169,4 @@ import 'element-ui/lib/theme-default/index.css'; // 默认主题
 
 ## License
 
-[MIT](https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE)
+[MIT](https://github.com/Wu-Yanjiang/ytynFrontEnd/blob/master/LICENSE)
